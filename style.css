@@ -45,5 +45,117 @@ fieldset {
 fieldset legend {
     border-bottom: 1px solid #5c5c6f;
     width: 100%;
-    padding: 16px;
+    padding-bottom: 16px;
+}
+
+.informacao-pessoal {
+    display: flex;
+    margin-top: 36px;
+}
+
+.nome-sobrenome {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.nome-sobrenome {
+    margin-right: 22px;
+}
+
+.nome-sobrenome input[type="text"] {
+    width: 300px;
+    height: 56px;
+    background: #FAFAFC;
+    border: 1px solid #E6E6F0;
+    border-radius: 8px;
+    margin-bottom: 16px;
+}
+
+.caixa-input {
+    display: flex;
+    flex-direction: column;
+}
+
+.caixa-input input[type="email"],
+.caixa-input input[type="password"] {
+    width: 622px;
+    height: 56px;
+    background: #FAFAFC;
+    border: 1px solid #E6E6F0;
+    border-radius: 8px;
+    margin-bottom: 16px;
+}
+
+.caixa-input label,
+.caixa-data label {
+    margin-bottom: 8px;
+}
+
+span:hover {
+    color: #361f69
+}
+
+.informacao-mentor {
+    display: flex;
+    flex-direction: column;
+}
+
+.informacao-mentor legend {
+    margin: 30px 0px 32px;
+}
+
+.informacao-mentor input[type="text"] {
+    width: 622px;
+    height: 56px;
+    background: #FAFAFC;
+    border: 1px solid #E6E6F0;
+    border-radius: 8px;
+    margin-bottom: 16px;
+}
+
+.informacao-mentor label {
+    margin-bottom: 8px;
+}
+
+.informacao-horario {
+    display: flex;
+    gap: 32px;
+}
+
+.caixa-data {
+    display: flex;
+    flex-direction: column;
+}
+
+.primeiro input[type=date] {
+    width: 300px;
+    height: 56px;
+    background: #FAFAFC;
+    border: 1px solid #E6E6F0;
+    border-radius: 8px;
+    padding-bottom: 8px;
+}
+
+.caixa-data input[type=time] {
+    width: 140px;
+    height: 56px;
+    background: #FAFAFC;
+    border: 1px solid #E6E6F0;
+    border-radius: 8px;
+}
+
+.informacao-horario>div:nth-child(3) {
+    margin-left: -22px;
+}
+
+h3 {
+    margin-top: 32px;
+    margin-bottom: 8px;
+}
+
+footer {
+    background: #535971;
+    width: 750px;
+    height: 160px;
 }
