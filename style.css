@@ -158,4 +158,24 @@ footer {
     background: #535971;
     width: 750px;
     height: 160px;
+    margin: auto;
+    border-radius: 0px 0px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 40px;
+    gap: 10px;
+}
+
+.input-salvar {
+    width: 608px;
+    height: 56px;
+    background: #FF5374;
+    border-radius: 20px;
+    border: 0;
+}
+
+footer .input-salvar:hover {
+    background: #a91e3a;
 }

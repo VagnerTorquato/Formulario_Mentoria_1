@@ -52,3 +52,12 @@ h3 {
     line-height: 34px;
     color: #535971;
 }
+
+.input-salvar {
+    font-family: 'Staatliches';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
